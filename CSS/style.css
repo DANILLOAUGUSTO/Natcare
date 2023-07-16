@@ -47,9 +47,8 @@ a {
 
 
 .banner{
-    width: 98vw;
+    width: 100%;
     height: 37vh;
-    margin-left: 7px;
 }
 
 .barraextra{
@@ -100,6 +99,7 @@ footer {
 
 .footer2{
     display: flex;
+    align-items: center;
     width: 25vw;
 }
 
@@ -141,29 +141,39 @@ footer {
     height: 30px;
 }
 
-@media(max-width: 500px){
+@media(max-width: 500px){    
 
-.footerpai1e2{
+.caixaproduto {
+    max-width: 130px;
+}
+
+.caixaproduto > img {
+    width: 130px;
+}
+
+    .footerpai1e2{
     flex-direction: column;
 }    
 
 .footer1 {
     margin-bottom: 40px;
+    width: 80vw;
 }
 
 .footer2 {
     flex-direction: column;
+    width: 80vw;
 }
 
 .button{
     margin-top:5px;
     margin-bottom: 40px;
-    width: 50vw;
+    width: 80vw;
 }
 
 .inseriremail{
     margin-top:40px;
-    width:50vw ;
+    width: 80vw ;
 }
 
 }
